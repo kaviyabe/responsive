@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    background-color:snow;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+   
+    
+
+}
+.item #q{
+    color: blueviolet;
+}
+.faster{
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+   padding: 15px;
+   
+  
+   
+   
+}
+
+.faster .emphasis{
+    color: orange;
+}
+.faster #no{
+    font-size: medium;
+}
+.social{
+    font-size: 40px;
+    background-color: mediumorchid;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    
+    
+
+}
+.social #to{
+    font-size: 20px;
+}
+.content{
+    background-color: orange;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    
+   
+}
+
+.manage{
+    background-color: azure;
+    font-size: 30px;
+    font-weight: bold;
+   display: inline-block;
+   padding: 15px;
+  
+}
+
+.posting{
+    background-color: orange;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    
+    
+}
+
+.audience{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: azure ;
+    display: inline-block;
+    padding: 15px;
+    grid-area: a;
+
+}
+.audience #a{
+    font-size: large;
+}
+.grow{
+background-color: blueviolet;
+color: white;
+font-size: 40px;
+display: inline-flex;
+padding: 15px;
+
+}
+.bemto-grid{
+   padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr; 
+  gap: 20px;
+  
+}
